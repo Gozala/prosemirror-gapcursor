@@ -1,8 +1,8 @@
-import {keydownHandler} from "prosemirror-keymap"
-import {TextSelection, NodeSelection, Plugin} from "prosemirror-state"
-import {Decoration, DecorationSet} from "prosemirror-view"
+import {keydownHandler} from "../../prosemirror-keymap/src/keymap.js"
+import {TextSelection, NodeSelection, Plugin} from "../../prosemirror-state/src/index.js"
+import {Decoration, DecorationSet} from "../../prosemirror-view/src/index.js"
 
-import {GapCursor} from "./gapcursor"
+import {GapCursor} from "./gapcursor.js"
 
 // :: () → Plugin
 // Create a gap cursor plugin. When enabled, this will capture clicks

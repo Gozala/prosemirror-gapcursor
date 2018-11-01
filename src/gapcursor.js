@@ -1,5 +1,5 @@
-import {Selection} from "prosemirror-state"
-import {Slice} from "prosemirror-model"
+import {Selection} from "../../prosemirror-state/src/index.js"
+import {Slice} from "../../prosemirror-model/src/index.js"
 
 // ::- Gap cursor selections are represented using this class. Its
 // `$anchor` and `$head` properties both point at the cursor position.
